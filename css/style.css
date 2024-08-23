@@ -1,0 +1,39 @@
+<style>
+*{
+margin: 0;
+box-sizing: border-box;
+}
+body{
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+}
+#primera-seccion{
+display: flex;
+flex-direction: row;
+width: 99vw;
+background-image: url("..img/bg-headliner.gif");
+}
+
+#menu-para-navegar{
+width: 100%;
+background-image: url("..img/bg-menu2.gif");
+}
+#iconos{
+border: 10px;
+width: 80%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+#tabla-de-navegacion{
+width: 100%;
+}
+#segunda-tabla {
+margin: 10px;
+margin-top: 40px;
+}
+</style>
